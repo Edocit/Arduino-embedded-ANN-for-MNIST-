@@ -27,6 +27,6 @@ At the end of the training process the test set is evaluated and the accuracy sc
 
 ## Author
 
-* **Edoardo Cittadini** - *Scuola Superiore Sant'Anna & University of Pisa - Embedded Computing System master degree* - [edocit](https://github.com/Edocit)
+* **Edoardo Cittadini** - *Scuola Superiore Sant'Anna & University of Pisa - Embedded Computing System Master Degree* - [edocit](https://github.com/Edocit)
 
 
