@@ -13,7 +13,7 @@ You must have a C compiler, the project was written following C99 standard and y
 
 ## Net topology 
 <p align="center">
-  <img width="460" height="300" src="https://www.filepicker.io/api/file/yqw897JzTdaXecwh7cj0?policy=eyJoYW5kbGUiOiJ5cXc4OTdKelRkYVhlY3doN2NqMCIsImV4cGlyeSI6MTU4OTI4MDU2OSwiY2FsbCI6WyJyZWFkIl19&signature=1c75e8bb8b2b92f80240ea692a5f7b5676f68033bc1dcb489b53b50a2545306c">
+  <img width="200" height="200" src="https://www.filepicker.io/api/file/yqw897JzTdaXecwh7cj0?policy=eyJoYW5kbGUiOiJ5cXc4OTdKelRkYVhlY3doN2NqMCIsImV4cGlyeSI6MTU4OTI4MDU2OSwiY2FsbCI6WyJyZWFkIl19&signature=1c75e8bb8b2b92f80240ea692a5f7b5676f68033bc1dcb489b53b50a2545306c">
 </p>
 
 
