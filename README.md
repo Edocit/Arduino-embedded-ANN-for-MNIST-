@@ -1,2 +1,70 @@
-# Arduino-embedded-ANN-for-MNIST-
-An implentation of a C neural network deployed on Arduino MEGA and STM32F103C (aka "Blue/Black Pill") to recognize numbers of MNIST dataset
+# Arduino-embedded-ANN-for-MNIST
+An implentation of a C neural network deployed on Arduino MEGA and STM32F103C (aka "Blue/Black Pill") to recognize numbers of MNIST dataset. It is a single layer network, that is what we say for an ANN without hidden layers, based on Softmax activation function.
+
+## Getting Started
+
+It is possible to get the full C net implementation in /c_net/neural_network.c. This file allows you to train your model and get your weights and biases saved in c_net/net_data as binary file with extension .dat. you can also change the variable "mode" to change the main function of the program:
+  if you set mode = TRAIN than once compiled the program will train the network with the given hyperparameters
+  if you set mode = DISPATCH then you can use the net to make a prediction on the 784 float array put inside the flatten_image array in the else branch in the main 
+
+### Prerequisites
+
+You must have a C compiler, the project was written following C99 standard and you need python 3.X if you want to generate a compatible network imput from an you image made with paint, GIMP or wathever other painting tool.
+
+## Net topology 
+![Implemented topology](https://www.filepicker.io/api/file/yqw897JzTdaXecwh7cj0?policy=eyJoYW5kbGUiOiJ5cXc4OTdKelRkYVhlY3doN2NqMCIsImV4cGlyeSI6MTU4OTI4MDU2OSwiY2FsbCI6WyJyZWFkIl19&signature=1c75e8bb8b2b92f80240ea692a5f7b5676f68033bc1dcb489b53b50a2545306c)
+
+
+## Test set evaluation 
+
+At the end of the training process the test set is evaluated and the accuracy score is reported in order to evaluate if the net overfitted the training set.
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
