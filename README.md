@@ -25,7 +25,7 @@ A simple feedforward fully-connected (Dense) ANN that using Softmax map the 10 o
 At the end of the training process the test set is evaluated and the accuracy score is reported in order to evaluate if the net overfitted the training set.
 
 
-## Authors
+## Author
 
 * **Edoardo Cittadini** - *Scuola Superiore Sant'Anna & University of Pisa - Embedded Computing System master degree* - [edocit](https://github.com/Edocit)
 
